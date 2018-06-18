@@ -33,7 +33,7 @@ public class LoginTest {
 	
 
 	
-	
+	/*
 	@Test (groups={"p1"})
 	public void loadPage(){
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -50,6 +50,8 @@ public class LoginTest {
 	public void filloutPasswordFld(){
 	fbMainPage.setText_PasswordLogin("pickica123");
 	}
+	
+	*/
 	
 	@Test(groups={"p1"})
 	public void testLoginMainPage(){
