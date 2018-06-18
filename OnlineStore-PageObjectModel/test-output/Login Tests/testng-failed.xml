@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Tests]">
+  <test name="P1 Test(failed)">
+    <groups>
+      <run>
+        <include name="p1"/>
+        <exclude name="p2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.facebook.test.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testLoginMainPage"/>
+        </methods>
+      </class> <!-- com.facebook.test.LoginTest -->
+    </classes>
+  </test> <!-- P1 Test(failed) -->
+</suite> <!-- Failed suite [Login Tests] -->
